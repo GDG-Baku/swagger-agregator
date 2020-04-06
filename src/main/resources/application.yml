@@ -12,18 +12,18 @@ documentation:
   swagger:
     services:
       -
-        name: Ms Auth
+        name: ms-auth
         url: ${MSAUTH_DOCS}
         version: 2.0
       -
-        name: Ms Complaint
+        name: ms-complaint
         url: ${MSCOMPLAINT_DOCS}
         version: 2.0
       -
-        name: Ms Subsriber
+        name: ms-subscriber
         url: ${MSSUBSCRIBER_DOCS}
         version: 2.0
       -
-        name: Ms Team
+        name: ms-team
         url: ${MSTEAM_DOCS}
         version: 2.0
