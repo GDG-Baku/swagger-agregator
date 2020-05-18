@@ -11,19 +11,21 @@ server:
 documentation:
   swagger:
     services:
-      -
-        name: ms-auth
+      - name: ms-auth
         url: ${MSAUTH_DOCS}
         version: 2.0
-      -
-        name: ms-complaint
+      - name: ms-complaint
         url: ${MSCOMPLAINT_DOCS}
         version: 2.0
-      -
-        name: ms-subscriber
+      - name: ms-subscriber
         url: ${MSSUBSCRIBER_DOCS}
         version: 2.0
-      -
-        name: ms-team
+      - name: ms-team
         url: ${MSTEAM_DOCS}
+        version: 2.0
+      - name: ms-alarm
+        url: ${MSALARM_DOCS}
+        version: 2.0
+      - name: ms-mail
+        url: ${MSMAIL_DOCS}
         version: 2.0

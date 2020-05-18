@@ -1,6 +1,5 @@
 package az.gdg.swaggeraggregator.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
@@ -15,12 +14,13 @@ import java.util.List;
 @EnableAutoConfiguration
 public class GatewaySwaggerResourceProvider implements SwaggerResourcesProvider {
 
-    @Autowired
-    private SwaggerServicesConfig swaggerServiceList;
+
+    private final SwaggerServicesConfig swaggerServiceList;
 
 
-    public GatewaySwaggerResourceProvider() {
+    public GatewaySwaggerResourceProvider(SwaggerServicesConfig swaggerServiceList) {
 
+        this.swaggerServiceList = swaggerServiceList;
     }
 
     @Override

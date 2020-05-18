@@ -10,7 +10,7 @@ import java.util.List;
 @Primary
 @Configuration
 @EnableConfigurationProperties
-@ConfigurationProperties(prefix="documentation.swagger")
+@ConfigurationProperties(prefix = "documentation.swagger")
 public class SwaggerServicesConfig {
 
     List<SwaggerServices> swagger;
@@ -25,8 +25,8 @@ public class SwaggerServicesConfig {
 
 
     @EnableConfigurationProperties
-    @ConfigurationProperties(prefix="documentation.swagger.services")
-    public static class SwaggerServices{
+    @ConfigurationProperties(prefix = "documentation.swagger.services")
+    public static class SwaggerServices {
         private String name;
         private String url;
         private String version;
