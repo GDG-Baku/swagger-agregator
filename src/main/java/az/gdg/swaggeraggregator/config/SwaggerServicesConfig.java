@@ -15,12 +15,6 @@ public class SwaggerServicesConfig {
 
     List<SwaggerServices> swagger;
 
-
-
-
-
-
-
     public List<SwaggerServices> getServices() {
         return swagger;
     }
