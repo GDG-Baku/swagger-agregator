@@ -29,3 +29,7 @@ documentation:
       - name: ms-mail
         url: ${MSMAIL_DOCS}
         version: 2.0
+      - name: ms-storage
+        url: ${MSSTORAGE_DOCS}
+        version: 2.0
+
